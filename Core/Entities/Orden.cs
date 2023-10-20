@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 
 namespace Core.Entities;
 
-public class Orden
+public class Orden: BaseEntity
 {
     public int IdOrden { get; set; }
     public DateTime Fecha { get; set; }

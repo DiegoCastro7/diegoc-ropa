@@ -8,10 +8,10 @@ using Infrastructure.Data;
 
 namespace Infrastructure.Repositories
 {
-    public class OrdenRepository : GenericRepository<Orden>, IOrdenRepository
+    public class DepartamentoRepository : GenericRepository<Departamento>, IDepartamentoRepository
     {
         private readonly RopaContext _context;
-        public OrdenRepository(RopaContext context) : base(context)
+        public DepartamentoRepository(RopaContext context) : base(context)
         {
             _context = context;
         }
